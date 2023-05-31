@@ -45,7 +45,7 @@ const Events = () => {
     <>
       <Header />
       {/* {events.live && slides && <PhotosSlider imagess={slides} />} */}
-      <div className="mx-24 grid lg:grid-cols-3 md:grid-cols-2 gap-8 ">
+      <div className="mx-5 grid lg:grid-cols-3 md:grid-cols-2 gap-8 ">
         {events.live.map((item) => (
           <EventTile item={item} key={item.id} />
         ))}

@@ -48,6 +48,8 @@ const AddPost = () => {
     }
     formData.append("description", desc);
     formData.append("classId", classId);
+    console.log(desc, classId);
+    
     console.log(formData);
     selectedFiles.forEach((file) => formData.append(`${Math.random()}`, file));
     const sendPost = async () => {

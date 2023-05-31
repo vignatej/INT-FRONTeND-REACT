@@ -53,14 +53,16 @@ const AddAnswer = (props) => {
   return (
     <div className="mx-10">
       <p className="text-xl font-normal mb-3 mt-6">Add an answer</p>
-      <input
-        type="text"
-        onKeyDown={handleKeyDown}
-        className="w-full bg-background rounded-sm h-10"
-        placeholder="  Enter your answer"
-        ref={ansRef}
-        onBlur={blurHandler}
-      />
+      <form>
+        <input
+          type="text"
+          onKeyDown={handleKeyDown}
+          className="w-full bg-background rounded-sm h-10"
+          placeholder="  Enter your answer"
+          ref={ansRef}
+          onBlur={blurHandler}
+        />
+      </form>
     </div>
   );
 };

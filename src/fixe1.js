@@ -1,1 +1,1 @@
-export const wsurl = "ws://first-azure-vigna-int.azurewebsites.net";
+export const wsurl = "ws://127.0.0.1:8000";
